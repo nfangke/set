@@ -70,32 +70,32 @@ function isSet(cardArray) {
 }
 
 
-// function isDoubleSet(cardArray) {
-//   debugger;
-//   var setOne = cardArray.slice(0,3);
-//   var setTwo = cardArray.slice(2,5);
-//   console.log(setOne);
-//   console.log(setTwo);
-//   var possibleSets = [[0,1,2], [0,1,3], [0,2,3], [1,2,3], [0,1,4], [0,2,4], [1,2,4], [0,3,4], [1,3,4], [2,3,4]];
-//   if (isSet(setOne) && isSet(setTwo)) {
-//     return true;
-//   } else {
-//     return false;
-//   }
+function isDoubleSet(cardArray) {
+  debugger;
+  var setOne = cardArray.slice(0,3);
+  var setTwo = cardArray.slice(2,5);
+  console.log(setOne);
+  console.log(setTwo);
+  var possibleSets = [[0,1,2], [0,1,3], [0,2,3], [1,2,3], [0,1,4], [0,2,4], [1,2,4], [0,3,4], [1,3,4], [2,3,4]];
+  if (isSet(setOne) && isSet(setTwo)) {
+    return true;
+  } else {
+    return false;
+  }
 
-  function isDoubleSet(cardArray) {
-    debugger;
-    var setOne = cardArray.slice(0,3);
-    var setTwo = cardArray.slice(2,5);
-    var setThree = cardArray.slice(4,6);
-    console.log(setOne);
-    console.log(setTwo);
-    var possibleSets = [[0,1,2], [0,1,3], [0,2,3], [1,2,3], [0,1,4], [0,2,4], [1,2,4], [0,3,4], [1,3,4], [2,3,4], [0,1,4], [0,1,5], [0,1,6], [0,2,4], [0,2,5], [0,2,6], [0,3,4], [0,3,5], [0,3,6], [0,4,5], [0,4,6], [0,5,6], [1,4,5], [1,4,6], [1,5,6], [1,2,5], [1,2,6], [1,3,5], [1,3,6], [2,4,5], [2,5,6], [2,4,6], [3,4,5], [3,4,6], [3,5,6], [4,5,6]];
-    if (isSet(setOne) && isSet(setTwo) && isSet(setThree)) {
-      return true;
-    } else {
-      return false;
-    }
+  // function isDoubleSet(cardArray) {
+  //   debugger;
+  //   var setOne = cardArray.slice(0,3);
+  //   var setTwo = cardArray.slice(2,5);
+  //   var setThree = cardArray.slice(4,6);
+  //   console.log(setOne);
+  //   console.log(setTwo);
+  //   var possibleSets = [[0,1,2], [0,1,3], [0,2,3], [1,2,3], [0,1,4], [0,2,4], [1,2,4], [0,3,4], [1,3,4], [2,3,4], [0,1,4], [0,1,5], [0,1,6], [0,2,4], [0,2,5], [0,2,6], [0,3,4], [0,3,5], [0,3,6], [0,4,5], [0,4,6], [0,5,6], [1,4,5], [1,4,6], [1,5,6], [1,2,5], [1,2,6], [1,3,5], [1,3,6], [2,4,5], [2,5,6], [2,4,6], [3,4,5], [3,4,6], [3,5,6], [4,5,6]];
+  //   if (isSet(setOne) && isSet(setTwo) && isSet(setThree)) {
+  //     return true;
+  //   } else {
+  //     return false;
+  //   }
 
 
   var bool = true;
