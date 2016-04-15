@@ -42,14 +42,14 @@ $(document).ready(function(event) {
       autoStart: false,
   });
 
-	$('#start').click(function() {
-		  clock.start();
-      $('#modal-rules').hide();
-      $(".hidden-row").hide();
-      $(".initial-hide").show();
-      $("#modal-rules2").show();
-
-    });
+	// $('#start').click(function() {
+	// 	  clock.start();
+  //     $('#modal-rules').hide();
+  //     $(".hidden-row").hide();
+  //     $(".initial-hide").show();
+  //     $("#modal-rules2").show();
+  //
+  //   });
 
   $('#pause').click(function() {
     $("#pauseModal").modal('show');

@@ -19,33 +19,33 @@
 
 /*Body----------------------------------*/
 .body {
-  /*background-color: #E6E6E6;*/
-  background-color: #ffd9b3;
+  background-color: #E6E6E6;
+  /*background-color: #ffd9b3;*/
 }
 .message {
   margin-top: 10px;
 }
 
 .score h3 {
-  font-family: 'Cabin Sketch', cursive;
-  font-size: 3em;
+  font-family: 'Open Sans', light;
+  font-size: 1.25em;
   margin-top: 5%;
+  margin-left: 12%;
 }
 #score {
-  font-family: 'Cabin Sketch', cursive;
-  font-size: 2em;
-  padding-left: 15%;
+  font-family: 'Open Sans', light;
+  font-size: 1.25em;
 }
 
-.initial-display {
+/*.initial-display {
   text-align: center;
   border-radius: 20px;
   background-color: #99e6e6;
   border: 3px solid #32cdcd;
   box-shadow: white 1px 1px 3px 3px;
-  font-family: 'Cabin Sketch', cursive;
+  font-family: 'Open Sans';
   color: black;
-  margin-top: 20px;
+  margin-top: 20px;*/
 
 }
 #start {
@@ -82,7 +82,7 @@
   margin-left: 10px;
   margin-right: 10px;
   box-shadow: 1px 1px 2px 2px;
-  font-family: 'Cabin Sketch', cursive;
+  font-family: 'Open Sans';
   margin-top: 5px;
   margin-bottom: 10px;
 }
@@ -93,38 +93,13 @@
   text-align: center;
 }
 
-/*Hidden cards-------------------------*/
-#hidden-ds {
-  max-width: 1136px;
-  display: none;
-}
-
-.hd-move {
-  max-width: 1136px;
-  margin-left: 1px;
-}
-
-.hide-input {
-  min-height: 130px;
-  max-width: 180px;
-  background-color: white;
-  border-radius: 20px;
-  margin: 23.6px;
-  opacity: 0.8;
-}
-
-.double-set {
-  float: right;
-  margin-right: 2%;
-  font-family: 'Cabin Sketch', cursive;
-}
 
 /*card styles--------------------------*/
-.board {
+/*.board {
   background-color: #5c85d6;
   border-radius: 20px;
   padding: 20px;
-}
+}*/
 
 .size {
   min-width: 250px;
@@ -134,9 +109,9 @@
   opacity: 0.95;
   display: block;
 }
-.initial-hide {
+/*.initial-hide {
   display: none;
-}
+}*/
 
 .cardStyle {
   max-width:100%;
@@ -144,7 +119,7 @@
 }
 
 .cardShadow {
-  box-shadow: 3px 3px 5px 5px #e97c7c;
+  box-shadow: 1px 1px 2px 3px #888888;
 }
 
 
@@ -177,17 +152,14 @@ input[type=checkbox] {
 }
 #modal-rules {
   margin-bottom: 15px;
-  font-family: 'Cabin Sketch', cursive;
-  font-size: 2em;
-  background-color: #f2f2f2;
+  font-family: 'Open Sans';
+  font-size: 1.25em;
+  color: white;
+  margin-top: 8px;
+  margin-bottom: -8px;
+  float: right;
+}
 
-}
-#modal-rules2 {
-  margin-bottom: 15px;
-  font-family: 'Cabin Sketch', cursive;
-  font-size: 2em;
-  background-color: #f2f2f2;
-}
 .GOcontainer {
   text-align: center;
 }
@@ -198,7 +170,7 @@ input[type=checkbox] {
   }
 .GOcontainer {
   color: white;
-  font-family: 'Cabin Sketch', cursive;
+  font-family: 'Open Sans';
 }
 .GOmodal-content{
   background-color: black;
@@ -227,7 +199,7 @@ input[type=checkbox] {
 }
 .pauseModal-content {
   background-color: transparent;
-  font-family: 'Cabin Sketch', cursive;
+  font-family: 'Open Sans';
 }
 .pauseModal-content h1 {
   margin: 30px;
@@ -265,7 +237,7 @@ body.modal-open .blur{
   font-weight: bold;
   color: white;
   text-shadow: 2px -5px 8px black;
-  font-family: 'Cabin Sketch', cursive;
+  font-family: 'Open Sans';
 }
 .modal-body p {
   font-size: 16px;
@@ -281,7 +253,7 @@ body.modal-open .blur{
 }
 .info{
   background-color: #ffcc99;
-  font-family: 'Cabin Sketch', cursive;
+  font-family: 'Open Sans';
 }
 #close-btn {
   background-color: #ffe6cc;
@@ -309,7 +281,7 @@ body.modal-open .blur{
   font-weight: bold;
   color: white;
   text-shadow: 2px -5px 8px black;
-  font-family: 'Cabin Sketch', cursive;
+  font-family: 'Open Sans';
   background-color: #ffcc99;
   margin-top: 20px;
 }
